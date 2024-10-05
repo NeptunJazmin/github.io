@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bemutatkozás</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+            background-image: url('hegy 2.jpg'); /* Háttérkép beállítása */
+            background-size: cover; /* Kép kitöltése */
+            background-position: center; /* Kép középre igazítása */
+            color: white; /* Szöveg színe */
+        }
+
+        .blue-box {
+            background-color: rgba(25, 25, 69, 0.8); /* Átlátszó háttér */
+            color: white;
+            padding: 20px;
+            border-radius: 7px;
+            max-width: 800px;
+            margin: 20px auto;
+            text-align: left;
+            transition: background-color 0.3s; /* Átmenet a háttérszínre */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Árnyék a dobozokhoz */
+        }
+
+        .blue-box:hover {
+            background-color: rgba(25, 25, 69, 0.9); /* Sötétebb háttér hover állapotban */
+        }
+
+        .header-background {
+            background-color: rgba(6, 60, 93, 1); /* Világoskék háttér, átlátszóság nélkül */
+            padding: 20px 0;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header img {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        nav .box a {
+            color: white; /* Linkek színe */
+            text-decoration: none; /* Aláhúzás eltüntetése */
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s; /* Átmenet a háttérszínre */
+        }
+
+        nav .box a:hover {
+            background-color: rgba(6, 60, 93, 0.6); /* Hover háttérszín */
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px 0;
+            background-color: rgba(0, 0, 0, 0.5); /* Háttér a lábléchez */
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header-background">
+        <img src="images/Jááááááázmin.jpg" alt="Kádár-Német Jázmin profilképe">
+        <h1>Üdvözlöm a Portfólió oldalamon!</h1>
+        <nav>
+            <div class="box"><a href="#about">Rólam</a></div>
+            <div class="box"><a href="#pro">Munkatapasztalatok</a></div>
+            <div class="box"><a href="#studies">Tanulmányaim</a></div>
+            <div class="box"><a href="#studies-more">További képzések</a></div>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="blue-box">
+            <h2>Rólam</h2>
+            <p>Amikor csak tehetem utazok, és sportolok, de kreatívkodni is nagyon szeretek.</p>
+            <p>BME egyik egyetemistája vagyok a sok közül, de igyekszem amilyen hamar csak lehet az legjobb lenni. Olyan valaki szeretnék lenni, aki pótolhatatlan. Ezt értem a munkahelyemre és a magánéletemre is.</p>
+            <p>Célom a fejlődés és az, hogy magamból a legtöbbet hozzam ki. Amikor csak tehetem utazok, és sportolok, de kreatívkodni is nagyon szeretek.</p>
+        </div>
+    </section>
+
+    <section id="pro">
+        <div class="blue-box">
+            <h2>Munkatapasztalatok:</h2>
+            <p><strong>BV Holding Kft</strong></p>
+            <p>Adatbázis kezelés, számlák, szállítólevelek rögzítése, szerződések gépelése, iratok rendszerezése.</p>
+            <p>2021.07.01-08.29</p>
+
+            <p><strong>Aria Hotel Budapest</strong></p>
+            <p>Pár hónapig Wine and Cheese program felügyelésére voltam beosztva, majd a runnerködni kezdtem a High Note SkyBár-ban. Jelenleg beugrósként dolgozok itt.</p>
+            <p>2023-máig</p>
+
+            <p><strong>Magyar Atlétikai Szövetség</strong></p>
+            <p>Hazai kisebb és nagyobb versenyeken dolgoztam/ dolgozok, mint versenybíró. Színes munkakörben mozgok. Jegyzőkönyvvezetésen keresztül egészen a mérésekig töltöttem már be feladatköröket, de ez számomra inkább hobbi, mintsem munka.</p>
+            <p>Világbajnokságon 2024-ben jegyzőkönyvvezető voltam.</p>
+            <p>2021- máig</p>
+        </div>
+    </section>
+
+    <section id="studies">
+        <div class="blue-box">
+            <h2>Tanulmányaim:</h2>
+            <p><strong>Budapesti Műszaki és Gazdaságtudományi Egyetem</strong></p>
+            <p>Ipari termék és formatervező mérnöki BSc</p>
+            <p>2024-máig</p>
+
+            <p><strong>BGSZC Hunfalvy János Két Tanítási Nyelvű Közgazdasági Technikum</strong></p>
+            <p>Német két tanítási közgazdasági szak</p>
+            <p>2019-2024</p>
+        </div>
+    </section>
+
+    <section id="studies-more">
+        <div class="blue-box">
+            <h2>További képzések:</h2>
+            <ul>
+                <li>Start Akadémia</li>
+                <li>MCC</li>
+                <li>BME rajzalkalmassági vizsgá felvételi előkészítő tanfolyama és maga a rajz alkalmassági vizsga</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <div class="blue-box">
+            <h2>Elérhetőségek</h2>
+            <p>Telefonszám: +36/20-231-9784</p>
+            <p>Email: kadar.n.jazmin@gmail.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Kádár-Német Jázmin</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
